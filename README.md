@@ -40,7 +40,7 @@ La carpeta recursos contiene 3 .csv utilizados en la extracción de característ
 El dataset que se ha utilizado para el entrenamiento de los modelos es dataset_completo_caracteristicas_ampliadas_todas_combinaciones_v1_textoProcesado.csv 
 (https://acortar.link/diSV7o)
 
-El Algoritmo fue desarrollado a partir de las pruebas de los modelos aplicados que se muestran en la carpeta MODELOS. En esta carpeta se encuentran todos los resultados de los modelos utilizados durante el proceso de desarrollo de este algoritmo, con los respectivos porcentajes de entrenamiento y prueba.
+El Algoritmo fue desarrollado a partir de las pruebas de los modelos aplicados que se muestran en la carpeta MODELOS (https://acortar.link/e6hZSe). En esta carpeta se encuentran todos los resultados de los modelos utilizados durante el proceso de desarrollo de este algoritmo, con los respectivos porcentajes de entrenamiento y prueba.
 
 El procedimiento seguido para entrenar los modelos queda reflejado en el Informe técnico Desarrollo del algoritmo de clasificación del odio por intensidades en medios digitales españoles en X (Twitter), Facebook y portales web (https://doi.org/10.6084/m9.figshare.25884262.v2).
 
@@ -113,7 +113,7 @@ The procedure followed to train the models is reflected in the Technical report 
 
 The dataset used for training is dataset_completo_caracteristicas_ampliadas_todas_combinaciones_v1_textoProcesado.csv (https://acortar.link/diSV7o)
 
-The Algorithm was developed from the tests of the applied models shown in the MODELOS folder. This folder contains all the results of the models used during the algorithm's development process, with the respective training and testing.
+The Algorithm was developed from the tests of the applied models shown in the MODELOS folder (https://acortar.link/e6hZSe). This folder contains all the results of the models used during the algorithm's development process, with the respective training and testing.
 
 The procedure followed to train the models is reflected in the technical report Development of the hate classification algorithm by intensities in Spanish digital media in X (Twitter), Facebook and web portals (https://doi.org/10.6084/m9.figshare 25884262.v1).
 
