@@ -63,12 +63,11 @@ Como citar: Said-Hung, E., Montero-Diaz, J., De Gregorio Vicente, O., Ruiz-Inies
 
 Más información:
 - https://www.hatemedia.es/ o contactar con:  elias.said@unir.net
-- Este algoritmo está relacionado con el algoritmo de clasificación de odio/no odio, desarrollado también por los autores: https://github.com/esaidh266/Algorithm-for-classifying-hate-expressions-in-Spanish
-
+- Este algoritmo está relacionado con el algoritmo de clasificación de odio/no odio, desarrollado también por los autores: https://github.com/esaidh266/Algorithm-for-detection-of-hate-speech-in-Spanish
 ---
-Algorithm for classifying hate expressions in messages in Spanish. This algorithm was developed within the framework of the Hatemedia project (PID2020-114584GB-I00), funded by MCIN/ AEI /10.13039/501100011033, with the collaboration of Possible Inc.
+Algorithm for classifying hate expressions in messages in Spanish. This algorithm was developed within the framework of the Hatemedia project (PID2020-114584GB-I00), funded by MCIN/AEI/10.13039/501100011033, with the collaboration of Possible Inc.
 
-Please read README IN SPANISH, which outlines all the steps to follow to use the algorithm developed within the framework of the Hatemedia project (PID2020-114584GB-I00), funded by MCIN/ AEI /10.13039/501100011033
+Please read README IN SPANISH, which outlines all the steps to follow to use the algorithm developed within the framework of the Hatemedia project (PID2020-114584GB-I00), funded by MCIN/AEI/10.13039/501100011033
 
 The algorithm allows the classification of hate expressions according to 4 types of hate intensity: 
 
@@ -115,7 +114,7 @@ The dataset used for training is dataset_completo_caracteristicas_ampliadas_toda
 
 The Algorithm was developed from the tests of the applied models shown in the MODELOS folder (https://acortar.link/e6hZSe). This folder contains all the results of the models used during the algorithm's development process, with the respective training and testing.
 
-The procedure followed to train the models is reflected in the technical report Development of the hate classification algorithm by intensities in Spanish digital media in X (Twitter), Facebook and web portals (https://doi.org/10.6084/m9.figshare 25884262.v1).
+The procedure followed to train the models is reflected in the technical report Development of the hate classification algorithm by intensities in Spanish digital media in X (Twitter), Facebook and web portals (https://doi.org/10.6084/m9.figshare25884262.v1).
 
 Authors:
 - Xiomara Blanco
@@ -136,4 +135,4 @@ How to cites: Blanco Valencia, X., Pérez Palau, D., Ruiz-Iniesta, A., De Gregor
 
 More information:
 - https://www.hatemedia.es/ or contact: elias.said@unir.net
-- This algorithm is related to the hate/non-hate classification algorithm, also developed by the authors: https://github.com/esaidh266/Algorithm-for-classifying-hate-expressions-in-Spanish
+- This algorithm is related to the hate/non-hate classification algorithm, also developed by the authors: https://github.com/esaidh266/Algorithm-for-detection-of-hate-speech-in-Spanish
