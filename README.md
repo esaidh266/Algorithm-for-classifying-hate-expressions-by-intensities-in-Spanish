@@ -42,7 +42,7 @@ El dataset que se ha utilizado para el entrenamiento de los modelos es dataset_c
 
 El Algoritmo fue desarrollado a partir de las pruebas de los modelos aplicados que se muestran en la carpeta MODELOS. En esta carpeta se encuentran todos los resultados de los modelos utilizados durante el proceso de desarrollo de este algoritmo, con los respectivos porcentajes de entrenamiento y prueba.
 
-El procedimiento seguido para entrenar los modelos queda reflejado en el Informe técnico Desarrollo del algoritmo de clasificación del odio por intensidades en medios digitales españoles en X (Twitter), Facebook y portales web (https://doi.org/10.6084/m9.figshare. 25884262.v1).
+El procedimiento seguido para entrenar los modelos queda reflejado en el Informe técnico Desarrollo del algoritmo de clasificación del odio por intensidades en medios digitales españoles en X (Twitter), Facebook y portales web (https://doi.org/10.6084/m9.figshare.25884262.v2).
 
 Autores: 
 - Xiomara Blanco
@@ -59,7 +59,7 @@ Agencia Estatal de Investigación – Ministerio de Ciencia e Innovación
 Con el apoyo de:
 - POSSIBLE S.L.
 
-Como citar: Said-Hung, E., Montero-Diaz, J., De Gregorio Vicente, O., Ruiz-Iniesta, A., Blanco Valencia, X., José Cubillas, J., and Pérez Palau, D. (2023), “Algorithm for classifying hate expressions by intensities in Spanish”, figshare. https://doi.org/10.6084/m9.figshare.24574906.
+Como citar: Said-Hung, E., Montero-Diaz, J., De Gregorio Vicente, O., Ruiz-Iniesta, A., Blanco Valencia, X., José Cubillas, J., and Pérez Palau, D. (2023). Algoritmo de clasificación de expresiones de odio por intensidades en español [Algorithm for classifying hate expressions by intensities in Spanish. https://doi.org/10.6084/m9.figshare.25892815.v1.
 
 Más información:
 - https://www.hatemedia.es/ o contactar con:  elias.said@unir.net
@@ -132,7 +132,7 @@ State Research Agency – Ministry of Science and Innovation
 With the support of:
 - POSSIBLE S.L.
 
-How to cites: Blanco Valencia, X., Pérez Palau, D., Ruiz-Iniesta, A., De Gregorio Vicente, O., José Cubillas, J., Said-Hung, E. and Montero-Diaz, J. (2023), “Algorithm for classifying hate expressions by intensities in Spanish”, figshare. https://doi.org/10.6084/m9.figshare.24574906.
+How to cites: Blanco Valencia, X., Pérez Palau, D., Ruiz-Iniesta, A., De Gregorio Vicente, O., José Cubillas, J., Said-Hung, E. and Montero-Diaz, J. (2023). Algoritmo de clasificación de expresiones de odio por intensidades en español [Algorithm for classifying hate expressions by intensities in Spanish. https://doi.org/10.6084/m9.figshare.25892815.v1.
 
 More information:
 - https://www.hatemedia.es/ or contact: elias.said@unir.net
