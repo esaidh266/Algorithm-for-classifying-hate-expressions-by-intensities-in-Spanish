@@ -59,7 +59,7 @@ Agencia Estatal de Investigación – Ministerio de Ciencia e Innovación
 Con el apoyo de:
 - POSSIBLE S.L.
 
-Como citar: Said-Hung, E., Montero-Diaz, J., De Gregorio Vicente, O., Ruiz-Iniesta, A., Blanco Valencia, X., José Cubillas, J., and Pérez Palau, D. (2023). Algoritmo de clasificación de expresiones de odio por intensidades en español [Algorithm for classifying hate expressions by intensities in Spanish. https://doi.org/10.6084/m9.figshare.25892815.v1.
+Como citar: Blanco Valencia, X., Pérez Palau, D., Ruiz-Iniesta, A., De Gregorio Vicente, O., José Cubillas, J., Said-Hung, E. and Montero-Diaz, J. (2023). Algoritmo de clasificación de expresiones de odio por intensidades en español [Algorithm for classifying hate expressions by intensities in Spanish. https://doi.org/10.6084/m9.figshare.25892815.v1.
 
 Más información:
 - https://www.hatemedia.es/ o contactar con:  elias.said@unir.net
