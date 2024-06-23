@@ -22,23 +22,18 @@ La estructura de carpetas con la documentación de Github es la presentada a con
 
 Se detalla a continuación el contenido de cada fichero:
 
-- DOCUMENTACIÓN GITHUB.docx:
-Informe en el que se presenta el uso de los scripts ejemplo (1).py y obtener_caracteristicas (1).py para emplear los modelos.
+- DOCUMENTACIÓN GITHUB.docx: Informe en el que se presenta el uso de los scripts ejemplo (1).py y obtener_caracteristicas (1).py para emplear los modelos.
 
-- ejemplo (1).py:
-Script Python que muestra el uso de los modelos para realizar predicciones.
+- ejemplo (1).py: Script Python que muestra el uso de los modelos para realizar predicciones.
 
-- Modelo_binario_(1) (1).ipnyb:
-Notebook con el código utilizado para el entrenamiento de los distintos modelos.
+- Modelo_binario_(1) (1).ipnyb: Notebook con el código utilizado para el entrenamiento de los distintos modelos.
 
-- Obtener_caracteristicas (1).py:
-Script Python con las funciones de preprocesado utilizadas previamente al uso de los modelos para predecir las entradas de un dataframe.
+- Obtener_caracteristicas (1).py: Script Python con las funciones de preprocesado utilizadas previamente al uso de los modelos para predecir las entradas de un dataframe.
 
-- Recursos-20231027T110710Z-001 (1).zip:
-La carpeta recursos contiene 3 .csv utilizados en la extracción de características.
+- Recursos-20231027T110710Z-001 (1).zip: La carpeta recursos contiene 3 .csv utilizados en la extracción de características.
 
-El dataset que se ha utilizado para el entrenamiento de los modelos es dataset_completo_caracteristicas_ampliadas_todas_combinaciones_v1_textoProcesado.csv 
-(https://acortar.link/diSV7o)
+El dataset que se ha utilizado para el entrenamiento de los modelos:
+- Said-Hung, Elias; Montero-Diaz, julio; Blanco, Xiomara; Ruiz-Iniesta, Almudena; Pérez Palau, Daniel; De Gregorio Vicente, Oscar; et al. (2024). Dataset usado para entrenamientos de modelos de algoritmos de clasificación de odio, por tipos e intensidades (Dataset used to train hate classification algorithm models by types and intensities). figshare. Dataset. https://doi.org/10.6084/m9.figshare.26085700.v1
 
 El Algoritmo fue desarrollado a partir de las pruebas de los modelos aplicados que se muestran en la carpeta MODELOS (https://acortar.link/e6hZSe). En esta carpeta se encuentran todos los resultados de los modelos utilizados durante el proceso de desarrollo de este algoritmo, con los respectivos porcentajes de entrenamiento y prueba.
 
