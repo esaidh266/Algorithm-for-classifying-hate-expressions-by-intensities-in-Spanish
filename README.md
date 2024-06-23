@@ -18,7 +18,7 @@ La estructura de carpetas con la documentación de Github es la presentada a con
              ├── ejemplo.py
              ├── Modelo_intensidades.ipynb
              ├── obtener_caracteristicas.py
-             └── recursos-20240304T124712Z-001.zip
+             └── recursos-20240304T124712Z-001.zip 
 
 Se detalla a continuación el contenido de cada fichero:
 
