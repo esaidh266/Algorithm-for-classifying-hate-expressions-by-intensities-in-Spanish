@@ -104,7 +104,7 @@ The dataset that has been used to build this library:
 
 Results and comparisons generated during the training and validation process of the final model used for the development of the algorithm are shared in the document Comparativa_V2.xlsx; y Explicación variación resultados Odio_No odio V2.pdf (Por publicar)
 
-The procedure followed to train the models is reflected in the Technical report on the development of a hate classification algorithm by intensities in Spanish digital news media on X (Twitter), Facebook, and web portals (https://doi.org/10.6084 /m9.figshare.25884262.v1).
+The procedure followed to train the models is reflected in the Technical report on the development of a hate classification algorithm by intensities in Spanish digital news media on X (Twitter), Facebook, and web portals (https://doi.org/10.6084/m9.figshare.25884262.v1).
 
 The Algorithm was developed from the tests of the applied models shown in the MODELOS folder (https://acortar.link/e6hZSe). This folder contains all the results of the models used during the algorithm's development process, with the respective training and testing.
 
