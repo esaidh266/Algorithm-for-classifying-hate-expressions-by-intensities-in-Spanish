@@ -37,7 +37,8 @@ El dataset que se ha utilizado para el entrenamiento de los modelos:
 
 El Algoritmo fue desarrollado a partir de las pruebas de los modelos aplicados que se muestran en la carpeta MODELOS (https://acortar.link/e6hZSe). En esta carpeta se encuentran todos los resultados de los modelos utilizados durante el proceso de desarrollo de este algoritmo, con los respectivos porcentajes de entrenamiento y prueba.
 
-El procedimiento seguido para entrenar los modelos queda reflejado en el Informe técnico Desarrollo del algoritmo de clasificación del odio por intensidades en medios digitales españoles en X (Twitter), Facebook y portales web (https://doi.org/10.6084/m9.figshare.25884262.v2).
+El procedimiento seguido para entrenar los modelos queda reflejado en el Informe técnico Desarrollo del algoritmo de clasificación del odio por intensidades en medios digitales españoles en X (Twitter), Facebook y portales web:
+- Blanco, Xiomara; Ruiz-Iniesta, Almudena; Pérez Palau, Daniel; De Gregorio Vicente, Oscar; José Cubillas, Juan; Said-Hung, Elias; et al. (2024). Informe técnico desarrollo de algoritmo de clasificación de odio por intensidades en medios informativos digitales españoles en X (Twitter), Facebook y portales web. figshare. Presentation. https://doi.org/10.6084/m9.figshare.25884262.v1
 
 Autores: 
 - Xiomara Blanco
@@ -98,18 +99,17 @@ Python script with the preprocessing functions used before using the models to p
 - Recursos-20231027T110710Z-001 (1).zip:
 The resources folder contains 3 .csv used in feature extraction.
 
-The dataset that has been used for training the models is dataset_completo_caracteristicas_ampliadas_todos_combinaciones_v1_textoProcesado.csv
-(https://acortar.link/diSV7o)
+The dataset that has been used to build this library:
+- Said-Hung, Elias; Montero-Diaz, julio; Blanco, Xiomara; Ruiz-Iniesta, Almudena; Pérez Palau, Daniel; De Gregorio Vicente, Oscar; et al. (2024). Dataset usado para entrenamientos de modelos de algoritmos de clasificación de odio, por tipos e intensidades (Dataset used to train hate classification algorithm models by types and intensities). figshare. Dataset. https://doi.org/10.6084/m9.figshare.26085700.v1
 
 Results and comparisons generated during the training and validation process of the final model used for the development of the algorithm are shared in the document Comparativa_V2.xlsx; y Explicación variación resultados Odio_No odio V2.pdf (Por publicar)
 
 The procedure followed to train the models is reflected in the Technical report on the development of a hate classification algorithm by intensities in Spanish digital news media on X (Twitter), Facebook, and web portals (https://doi.org/10.6084 /m9.figshare.25884262.v1).
 
-The dataset used for training is dataset_completo_caracteristicas_ampliadas_todas_combinaciones_v1_textoProcesado.csv (https://acortar.link/diSV7o)
-
 The Algorithm was developed from the tests of the applied models shown in the MODELOS folder (https://acortar.link/e6hZSe). This folder contains all the results of the models used during the algorithm's development process, with the respective training and testing.
 
-The procedure followed to train the models is reflected in the technical report Development of the hate classification algorithm by intensities in Spanish digital media in X (Twitter), Facebook and web portals (https://doi.org/10.6084/m9.figshare25884262.v1).
+The procedure followed to train the models is reflected in the technical report Development of the hate classification algorithm by intensities in Spanish digital media in X (Twitter), Facebook and web portals:
+- Blanco, Xiomara; Ruiz-Iniesta, Almudena; Pérez Palau, Daniel; De Gregorio Vicente, Oscar; José Cubillas, Juan; Said-Hung, Elias; et al. (2024). Informe técnico desarrollo de algoritmo de clasificación de odio por intensidades en medios informativos digitales españoles en X (Twitter), Facebook y portales web. figshare. Presentation. https://doi.org/10.6084/m9.figshare.25884262.v1
 
 Authors:
 - Xiomara Blanco
