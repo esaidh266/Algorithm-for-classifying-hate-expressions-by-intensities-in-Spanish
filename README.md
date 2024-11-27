@@ -40,6 +40,8 @@ El Algoritmo fue desarrollado a partir de las pruebas de los modelos aplicados q
 El procedimiento seguido para entrenar los modelos queda reflejado en el Informe técnico Desarrollo del algoritmo de clasificación del odio por intensidades en medios digitales españoles en X (Twitter), Facebook y portales web:
 - Blanco, Xiomara; Ruiz-Iniesta, Almudena; Pérez Palau, Daniel; De Gregorio Vicente, Oscar; José Cubillas, Juan; Said-Hung, Elias; et al. (2024). Informe técnico desarrollo de algoritmo de clasificación de odio por intensidades en medios informativos digitales españoles en X (Twitter), Facebook y portales web. figshare. Presentation. https://doi.org/10.6084/m9.figshare.25884262.v1
 
+Acceso a Demo donde se explica el flujo de funcionamiento de algoritmos desarrollados en Hatemedia: https://youtu.be/c1lJks54F2M
+
 Autores: 
 - Xiomara Blanco
 - Almudena Ruiz
@@ -108,6 +110,8 @@ The Algorithm was developed from the tests of the applied models shown in the MO
 
 The procedure followed to train the models is reflected in the technical report Development of the hate classification algorithm by intensities in Spanish digital media in X (Twitter), Facebook and web portals:
 - Blanco, Xiomara; Ruiz-Iniesta, Almudena; Pérez Palau, Daniel; De Gregorio Vicente, Oscar; José Cubillas, Juan; Said-Hung, Elias; et al. (2024). Informe técnico desarrollo de algoritmo de clasificación de odio por intensidades en medios informativos digitales españoles en X (Twitter), Facebook y portales web. figshare. Presentation. https://doi.org/10.6084/m9.figshare.25884262.v1
+
+Access to Demo where the operation flow of algorithms developed in Hatemedia is explained: https://youtu.be/c1lJks54F2M
 
 Authors:
 - Xiomara Blanco
