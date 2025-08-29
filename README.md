@@ -86,7 +86,7 @@ Autores: 
 Financiado por: 
 MCIN/AEI /10.13039/501100011033
 
-Como citar: Blanco Valencia, X., Pérez Palau, D., Ruiz-Iniesta, A., De Gregorio Vicente, O., José Cubillas, J., Said-Hung, E. and Montero-Diaz, J. (2023), “Algorithm for classifying hate expressions by intensities in Spanish”, figshare. https://doi.org/10.6084/m9.figshare.2589281510.6084/m9.figshare.25892815.
+Como citar: Blanco Valencia, X., Pérez Palau, D., Ruiz-Iniesta, A., De Gregorio Vicente, O., José Cubillas, J., Said-Hung, E. and Montero-Diaz, J. (2023), “Algorithm for classifying hate expressions by intensities in Spanish”, figshare. https://doi.org/10.6084/m9.figshare.25892815.
 
 Más información:
 
@@ -184,12 +184,13 @@ Authors:
 Funded by:
 MCIN/AEI/10.13039/501100011033
 
-How to cites: Blanco Valencia, X., Pérez Palau, D., Ruiz-Iniesta, A., De Gregorio Vicente, O., José Cubillas, J., Said-Hung, E. and Montero-Diaz, J. (2023), “Algorithm for classifying hate expressions by intensities in Spanish”, figshare. https://doi.org/10.6084/m9.figshare.2589281510.6084/m9.figshare.25892815.
+How to cites: Blanco Valencia, X., Pérez Palau, D., Ruiz-Iniesta, A., De Gregorio Vicente, O., José Cubillas, J., Said-Hung, E. and Montero-Diaz, J. (2023), “Algorithm for classifying hate expressions by intensities in Spanish”, figshare. https://doi.org/10.6084/m9.figshare.25892815.
 
 More information:
 
 - https://www.hatemedia.es/ or contact: elias.said@unir.net
 - This algorithm is related to the hate/non-hate classification algorithm, also developed by the authors: https://github.com/esaidh266/Algorithm-for-detection-of-hate-speech-in-Spanish
 - This algorithm is related to the algorithm for classifying hate expressions by types in Spanish, also developed by the authors: https://github.com/esaidh266/Algorithm-for-classifying-hate-expressions-by-type-in-Spanish
+
 
 
