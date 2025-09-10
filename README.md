@@ -94,6 +94,10 @@ Más información:
 - Este algoritmo está relacionado con el algoritmo de clasificación de odio/no odio, desarrollado también por los autores: https://github.com/esaidh266/Algorithm-for-detection-of-hate-speech-in-Spanish
 - Este algoritmo está relacionado con el algoritmo de clasificación de expresiones de odio por tipo en español, desarrollado también por los autores: https://github.com/esaidh266/Algorithm-for-classifying-hate-expressions-by-type-in-Spanish
 
+Importante:
+- Para hacer uso correcto de este algoritmo es necesario pasar los mensajes en los que se desean detectar expresiones de odio, a través del algoritmo de clasificación de odio/no odio, desarrollado también por los autores: https://github.com/esaidh266/Algorithm-for-detection-of-hate-speech-in-Spanish. Una vez identificados los mensajes con odio, este algoritmo clasificará estos según las intensidades de odio asociados a este desarrollo.
+  
+
 -------
 # Hate Speech Intensity Classification Model
 
@@ -191,6 +195,10 @@ More information:
 - https://www.hatemedia.es/ or contact: elias.said@unir.net
 - This algorithm is related to the hate/non-hate classification algorithm, also developed by the authors: https://github.com/esaidh266/Algorithm-for-detection-of-hate-speech-in-Spanish
 - This algorithm is related to the algorithm for classifying hate expressions by types in Spanish, also developed by the authors: https://github.com/esaidh266/Algorithm-for-classifying-hate-expressions-by-type-in-Spanish
+
+Important:
+- To correctly use this algorithm, you must pass the messages in which you want to detect hate speech through the hate/non-hate classification algorithm, also developed by the authors: https://github.com/esaidh266/Algorithm-for-detection-of-hate-speech-in-Spanish. Once the hate messages are identified, this algorithm will classify them according to the intensities of hate associated with this development.
+
 
 
 
