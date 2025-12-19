@@ -5,14 +5,18 @@ Este código implementa un sistema de clasificación de discurso de odio utiliza
 ## Arquitectura del Modelo
 
 El modelo se basa en `pysentimiento/robertuito-base-uncased` con las siguientes modificaciones:
-- Se añadió una capa de clasificación densa con 4 salidas sobre el modelo base.
-- Utiliza IDs de entrada y máscaras de atención como entradas.
-- Genera una clasificación multiclase con 4 categorías (Incívicos, Malintencionado, Insulto, Amenaza).
+- Se añadió una capa de clasificación densa con 4 salidas sobre el modelo base
+- Utiliza IDs de entrada y máscaras de atención como entradas
+- Genera una clasificación multiclase con 4 categorías (Incívicos, Malintencionado, Insulto, Amenaza)
+- Longitud máxima de tokens procesados: 64 tokens
 
 ## Datasets
 
 1.  **Conjunto de Datos de Intensidades**: Este modelo utiliza un conjunto de datos personalizado para la clasificación de intensidades de discurso de odio, cargado desde `df_intensidades.csv`.
-    -   Clasificación multiclase con las siguientes etiquetas:
+    -   Características del dataset:
+        -   Total de muestras: 29,857
+        -   4 categorías de clasificación multiclase
+    -   Distribución de clases (después de normalización de etiquetas):
         -   `0` = Intensidad 1 : Odio asociado a mensajes incívico
         -   `1` = MIntensidad 2 : Odio asociado a mensajes mal intencionados o con expresiones abusivas
         -   `2` = Intensidad 3 : Odio asociado a insultos
@@ -26,9 +30,14 @@ El modelo se basa en `pysentimiento/robertuito-base-uncased` con las siguientes 
 - Learning rate: 2e-5 with 10% warmup steps
 - Early stopping with patience=2
 
+###División de Datos###
+- Conjunto de Entrenamiento: 23,885 muestras (80%)
+- Conjunto de Validación: 2,986 muestras (10%)
+- Conjunto de Test: 2,986 muestras (10%)
+
 ### Fine-tuning
 - Batch size: 128
-- Epochs: 5
+- Epochs: 5 a 10 (según el experimento)
 - Learning rate: 2e-5 with 10% warmup steps
 - Early stopping with patience=2
 - Métricas personalizadas (a definir según la tarea de clasificación multiclase).
@@ -45,13 +54,15 @@ El modelo se evalúa utilizando:
 ## Requerimientos
 
 Se requiere los siguientes paquetes de Python (consulte requirements.txt para ver la lista completa):
-- TensorFlow
-- Transformers
-- scikit-learn
-- pandas
-- datasets
-- matplotlib
-- seaborn
+- tensorflow>= 2.x
+- transformers== 4.52.4
+- datasets== 3.6.0
+- scikit-learn>= 0.x
+- pandas>= 1.x
+- matplotlib>= 3.x
+- seaborn>= 0.x
+- numpy>= 2.0.0
+- pysentimiento (versión compatible)
 
 ## Uso
 El modelo espera datos de entrada con las siguientes especificaciones:
@@ -106,19 +117,23 @@ This code implements a hate speech classification system using the RoBERTuito mo
 ##Model Architecture
 
 The model is based on `pysentimiento/robertuito-base-uncased` with the following modifications:
-- A dense classification layer with 4 outputs has been added over the base model.
-- It uses input IDs and attention masks as inputs.
-- It generates a multiclass classification with 4 categories (Uncivil, Malicious, Insult, Threat).
+- A dense classification layer with 4 outputs was added to the base model.
+- Uses input IDs and attention masks as inputs.
+- Generates a multi-class classification with 4 categories (Uncivil, Malicious, Insult, Threat).
+- Maximum length of processed tokens: 64 tokens.
 
 ##Datasets
 
 1. **Intensities Dataset**: This uses a custom dataset model for hate speech intensities classification, loaded from `df_intensidades.csv`.
 
-- Multiclass classification with the following labels:
-- `0` = Intensity 1: Hate associated with uncivil messages
-- `1` = MIntensity 2: Hate associated with malicious messages or abusive language
-- `2` = Intensity 3: Hate associated with insults
-- `3` = Intensity 4: Hate associated with veiled or explicit threats
+    -   Dataset characteristics:
+        -   Total number of samples: 29,857
+        -   4 multiclass classification categories
+    -   Class distribution (after label normalization):
+        - `0` = Intensity 1: Hate associated with uncivil messages
+        - `1` = MIntensity 2: Hate associated with malicious messages or abusive language
+        - `2` = Intensity 3: Hate associated with insults
+        - `3` = Intensity 4: Hate associated with veiled or explicit threats
 
 ## Training Process
 
@@ -128,9 +143,14 @@ The model is based on `pysentimiento/robertuito-base-uncased` with the following
 - Learning rate: 2e-5 with 10% warm-up steps
 - Stop early with patience = 2
 
+###Data Division###
+- Training Set: 23,885 samples (80%)
+- Validation Set: 2,986 samples (10%)
+- Test Set: 2,986 samples (10%)
+
 ### Fine Tuning
 - Batch size: 128
-- Epochs: 5
+- Epochs: 5 to 10 (depending on the experiment)
 - Learning rate: 2e-5 with 10% warm-up steps
 - Stop early with patience = 2
 - Custom metrics (to be defined according to the training task) multiclass classification).
@@ -147,13 +167,15 @@ The model is evaluated using:
 ## Requirements
 
 The following Python packages are required (see requirements.txt for the full list):
-- TensorFlow
-- Transformers
-- scikit-learn
-- pandas
-- datasets
-- matplotlib
-- seaborn
+- tensorflow>= 2.x
+- transformers== 4.52.4
+- datasets== 3.6.0
+- scikit-learn>= 0.x
+- pandas>= 1.x
+- matplotlib>= 3.x
+- seaborn>= 0.x
+- numpy>= 2.0.0
+- pysentimiento (compatible version)
 
 ## Usage
 The model expects input data with the following specifications:
@@ -198,6 +220,7 @@ More information:
 
 Important:
 - To correctly use this algorithm, you must pass the messages in which you want to detect hate speech through the hate/non-hate classification algorithm, also developed by the authors: https://github.com/esaidh266/Algorithm-for-detection-of-hate-speech-in-Spanish. Once the hate messages are identified, this algorithm will classify them according to the intensities of hate associated with this development.
+
 
 
 
