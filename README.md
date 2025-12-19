@@ -83,7 +83,7 @@ El modelo espera datos de entrada con las siguientes especificaciones:
     -   `2` = Intensidad 3 : Odio asociado a insultos
     -   `3` = Intensidad 4 : Odio asociado a amenazas veladas o explícitas
 
-El proceso de creación de este algoritmo se expone en el informe técnico localizado en: Blanco-Valencia, X., De Gregorio-Vicente, O., Ruiz Iniesta, A., & Said-Hung, E. (2025). Algoritmos de detección de odio/no odio, tipo e intensidad – Hatemedia V.2.0 (Version 2). Hatemedia Project. https://doi.org/10.5281/zenodo.16996080
+El proceso de creación de este algoritmo se expone en el informe técnico localizado en: Blanco-Valencia, X., De Gregorio-Vicente, O., Ruiz Iniesta, A., & Said-Hung, E. (2025). Algoritmos de detección de odio/no odio, tipo e intensidad – Hatemedia. Hatemedia Project. https://doi.org/10.5281/zenodo.17992897
 
 Autores: 
 - Xiomara Blanco
@@ -196,7 +196,7 @@ The model expects input data with the following specifications:
 - `2` = Intensity 3: Hate associated with insults
 - `3` = Intensity 4: Hate associated with veiled or explicit threats
 
-The process of creating this algorithm is explained in the technical report located at: Blanco-Valencia, X., De Gregorio-Vicente, O., Ruiz Iniesta, A., & Said-Hung, E. (2025). Algoritmos de detección de odio/no odio, tipo e intensidad – Hatemedia V.2.0 (Version 2). Hatemedia Project. https://doi.org/10.5281/zenodo.16996080
+The process of creating this algorithm is explained in the technical report located at: Blanco-Valencia, X., De Gregorio-Vicente, O., Ruiz Iniesta, A., & Said-Hung, E. (2025). Algoritmos de detección de odio/no odio, tipo e intensidad – Hatemedia. Hatemedia Project. https://doi.org/10.5281/zenodo.17992897
 
 Authors:
 - Xiomara Blanco
@@ -220,6 +220,7 @@ More information:
 
 Important:
 - To correctly use this algorithm, you must pass the messages in which you want to detect hate speech through the hate/non-hate classification algorithm, also developed by the authors: https://github.com/esaidh266/Algorithm-for-detection-of-hate-speech-in-Spanish. Once the hate messages are identified, this algorithm will classify them according to the intensities of hate associated with this development.
+
 
 
 
